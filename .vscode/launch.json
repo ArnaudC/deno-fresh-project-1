@@ -13,8 +13,9 @@
             "runtimeExecutable": "/usr/local/bin/deno",
             "runtimeArgs": [
                 "run",
+                // "--watch",
                 "--inspect",
-                "--allow-all"
+                "--allow-all",
             ],
             "attachSimplePort": 9229
         }
