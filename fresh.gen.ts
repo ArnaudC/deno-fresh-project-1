@@ -7,15 +7,21 @@ import * as $1 from "./routes/api/joke.ts";
 import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/about.tsx";
 import * as $4 from "./routes/greet/[name].tsx";
+import * as $5 from "./routes/api/random-uuid.ts";
+import * as $6 from "./routes/api/github/[username].tsx";
+import * as $7 from "./routes/search.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
     "./routes/api/joke.ts": $1,
+    "./routes/api/random-uuid.ts": $5,
     "./routes/index.tsx": $2,
     "./routes/about.tsx": $3,
+    "./routes/search.tsx": $7,
     "./routes/greet/[name].tsx": $4,
+    "./routes/api/github/[username].tsx": $6,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
