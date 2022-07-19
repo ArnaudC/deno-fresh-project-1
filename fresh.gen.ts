@@ -10,7 +10,9 @@ import * as $4 from "./routes/greet/[name].tsx";
 import * as $5 from "./routes/api/random-uuid.ts";
 import * as $6 from "./routes/api/github/[username].tsx";
 import * as $7 from "./routes/search.tsx";
+import * as $8 from "./routes/countdown.tsx";
 import * as $$0 from "./islands/Counter.tsx";
+import * as $$1 from "./islands/Countdown.tsx";
 
 const manifest = {
   routes: {
@@ -20,11 +22,13 @@ const manifest = {
     "./routes/index.tsx": $2,
     "./routes/about.tsx": $3,
     "./routes/search.tsx": $7,
+    "./routes/countdown.tsx": $8,
     "./routes/greet/[name].tsx": $4,
     "./routes/api/github/[username].tsx": $6,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
+    "./islands/Countdown.tsx": $$1,
   },
   baseUrl: import.meta.url,
 };
